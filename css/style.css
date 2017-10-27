@@ -6,9 +6,53 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+h4{
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h5.home,
+h6.home{
+	font-weight: 900;
+}
+
+blockquote{
+	border-color: #0D47A1;
+}
+
 .icon-block {
   padding: 0 15px;
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.logo-site {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo-site>img {
+    vertical-align: middle
+}
+
+.banner-saladejustica{
+	padding: 20px 0;
+	background-image:url('../img/books-back.jpg');
+	background-repeat:no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-position:center;
 }
