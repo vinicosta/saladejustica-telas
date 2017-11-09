@@ -21,8 +21,7 @@ h4{
 	text-transform: uppercase;
 }
 
-h5.home,
-h6.home{
+h5{
 	font-weight: 900;
 }
 
@@ -55,4 +54,18 @@ blockquote{
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
+}
+
+.btn-padding{
+	padding-bottom: 12px !important;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+	color: #0D47A1 !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+	border-bottom: 1px solid #0D47A1 !important;
+	box-shadow: 0 1px 0 0 #0D47A1 !important
 }
