@@ -1,4 +1,7 @@
 FROM nginx
 LABEL maintainer="vinicosta@gmail.com"
 EXPOSE 80
-COPY . /usr/share/nginx/html
+COPY ./src /usr/share/nginx/html
+COPY ./nginx.conf /etc/nginx/nginx.conf
+CMD ["nginx", "-g", "daemon off;"]
+WORKDIR /usr/share/nginx/html
